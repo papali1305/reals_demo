@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>REALs</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .mainline {
+        border: 2px solid black;
+        margin: 0px;
+        width: 1243px;
+        height: 295px;
+        padding: 37px;
+        background-color: #9c9cbc;
+    }
+
+    h1 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .headline {
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+        /* border: 2px solid black; */
+        margin: 11px;
+        padding: 11px;
+    }
+
+    .h1,
+    h1 {
+        font-size: calc(1.375rem + 8.5vw);
+        margin-left: 176px;
+    }
+
+    p {
+        margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 181px;
+    }
+
+    nav {
+        background-color: black;
+        color: white;
+    }
+
+    h2 {
+        font-size: 33px;
+    }
+
+    .navbar-text {
+        background-color: black;
+        color: white;
+    }
+
+    .quote {
+        color: brown;
+        /* border: 2px solid black; */
+        margin: 41px;
+        margin-left: 121px;
+        padding: 12px;
+        font-family: cursive;
+    }
+
+    .card-body {
+        border-radius: 2px;
+        margin-left: 11px;
+
+    }
+
+    .card-title {
+        margin-bottom: var(--bs-card-title-spacer-y);
+        color: var(--bs-card-title-color);
+        margin-left: -8px;
+        font-size: 27px;
+    }
+
+    .card-img-top {
+        border-radius: 50%;
+    }
+
+    a.btn.btn-primary {
+        margin-left: 42px;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        margin: 11px;
+        padding: 5px;
+        place-content: space-evenly;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        justify-items: center;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+    .slide {
+        border: 5px solid white;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel slide {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .carousel-item active {
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .carousel-item {
+        width: 100wh;
+        height: 100vh;
+    }
+
+    .h5,
+    h5 {
+        font-size: 3.25rem;
+    }
+
+    .image {
+        border: 2px solid black;
+        margin: 10px;
+        padding: 71px;
+        float: right;
+    }
+
+    .serviceprovide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .freeservice {
+        display: flex;
+        flex-direction: row;
+        place-content: space-evenly;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">REALs
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+
+                    <button class="btn btn-outline-success" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="serviceprovide">
+        <div class="mainline">
+            <h1>
+                REALs
+            </h1>
+            <p>
+                Rapid Emergency Alert & Life saving System
+            </p>
+        </div>
+    </div>
+    <div class="freeservice">
+        <div class="card-group">
+            <div class="card">
+                <img src="ambulance3.png.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ambulance</h5>
+                    <p2 class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p2>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                    <img src="policenew.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Police Station</h5>
+                        <p2 class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p2>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        <div class="card">
+            <img src="family.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Family Members</h5>
+                <p2 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p2>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div style="align-items: center;">
+        <h2 style="align-items: center;">ABOUT US</h2>
+        <p2>
+            Road accidents continue to be a leading cause of death, disabilities and hospitalization in the country
+            despite our commitment and efforts. India ranks first in the number of road accident deaths across the 199
+            countries and accounts for almost 11% of the accident related deaths in the World.
+            In several part of India, there are inadequate emergency services for the care of such accident victims.
+            Road Safety is critical issue with more than 1 reported fatality every three minute in India.
+        </p2>
+    </div>
+    <div class="quote">
+        "To reduce the post accident deaths,here we come with a solution.<br>
+        Accident detection and notifying nearest hospitals, police station and dearer ones."
+    </div>
+    <h2>Services</h2>
+    <div class="services">
+        <div class="card" style="width: 18rem;">
+            <img src="img1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Car Insurance</h5>
+                <a href="#" class="btn btn-primary">check</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="health.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Health Insurance</h5>
+                <a href="#" class="btn btn-primary">check</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="emnew.png.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Emergency Alert</h5>
+                <a href="#" class="btn btn-primary">check</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="appointdoc.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Book Appointment</h5>
+                <a href="#" class="btn btn-primary">check</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
